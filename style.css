@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Layout principal */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilo das caixas */
+  .box {
+    width: 260px;
+    min-height: 500px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .curso {
+    background-color: #dcdcdc;
+    color: #333;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .curso:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .selected {
+    background-color: #252480 !important;
+    color: #fff !important;
+  }
+  
+  /* Botão de copiar */
+  .copy-btn {
+    height: 45px;
+    padding: 0 20px;
+    background-color: #252480;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .copy-btn:hover {
+    background-color: #1a1a66;
+  }
+  
